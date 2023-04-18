@@ -1,0 +1,1 @@
+A view needs an ID to retain its state. This ID must be unique within the fragment and its view hierarchy. **Views without an ID cannot retain their state.**
