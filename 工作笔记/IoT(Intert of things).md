@@ -65,3 +65,24 @@ https://help.aliyun.com/apsara/integrated-iot/v_2_0_0_20210812/iot/wq9r8h/what-i
 
 ## 服务端开发人员提问文档
 [链接](https://docs.qq.com/scenario/account-guide.html?globalPadId=300000000%24TgHolFEsDQlU&redirect_url=https%3A%2F%2Fdocs.qq.com%2Fdoc%2FDVGdIb2xGRXNEUWxV%3Fu%3Dac3ca48d84e64b61b05af80b9c077218&u=5e4efa64f2e74cf4a56a3f7adfff265b)
+
+## 服务端测试信息
+deviceName: cpl-device
+productKey: iiyvHvXkF0N
+productSecret: drvioezan90J9ZY3
+deviceSecret: d720adf10e2392592ea1515372f4d3d4
+host: iot-060a1qwo.mqtt.iothub.aliyuncs.com
+
+## 服务端公网ip+端口
+120.196.123.187:4002
+
+## Mqtt连接demo
+```
+P:\temp\from simon.li\云服务\MqttConnect.java
+```
+
+## 为apk增加权限
+./frameworks/base/data/etc/privapp-permissions-platform.xml
+```
+   04-25 23:24:49.964  1408  1408 E System  : java.lang.IllegalStateException: Signature|privileged permissions not in privapp-permissions whitelist: {com.intellyva.liveplayer (/system/priv-app/LivePlayer): android.permission.OVERRIDE_WIFI_CONFIG}
+```
