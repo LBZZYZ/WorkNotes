@@ -1,5 +1,12 @@
 {
   "showLineNumber": true,
   "promptDelete": false,
-  "readableLineLength": false
+  "readableLineLength": false,
+  "pdfExportSettings": {
+    "includeName": false,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 60
+  }
 }
