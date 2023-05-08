@@ -4,3 +4,9 @@
 ```bash
 adb push C:\bz_temp\preview_camera\app\build\outputs\apk\debug\Camera.apk /system/priv-app/Camera/
 ```
+
+Q1 cameraList合并到getScene, cameraSwitch合并到setScene，还是说cameraList只是获取镜头缩略图的？
+Q2 material api里面的group不需要，设备端没法给这个字段赋值
+Q3 推流没有获取推流状态的接口；设备端发送给云服务端的接口需要返回状态吗？
+Q4 设置背景音乐列表和设置设备背景音乐列表什么区别？
+Q5 设备氛围音列表用读取设备素材列表的方式可以读的到吗？
