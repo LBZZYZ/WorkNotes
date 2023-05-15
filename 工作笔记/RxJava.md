@@ -1,12 +1,6 @@
----
-title: RxJava
-updated: 2021-11-24T09:58:56.0000000+08:00
-created: 2021-11-24T09:58:34.0000000+08:00
----
-
-RxJava
-2021年11月24日
-9:58
-
 <https://juejin.cn/post/6844903619947397134>
 <https://juejin.cn/post/6844903617124630535>
+https://www.cnblogs.com/xuecanmeng/p/6888351.html
+https://www.imooc.com/article/37303 #Single与Completable
+https://blog.csdn.net/baidu_34012226/article/details/52438902
+https://medium.com/@wasyl/rxjava-threading-when-subscribeon-doesnt-work-ee467a21935b

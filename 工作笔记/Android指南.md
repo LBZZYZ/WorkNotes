@@ -1,14 +1,3 @@
-[wiki]
-http://intellyva/doku.php?id=start
-user: simon.li
-password: intellyva
-[gerrit]
-http://intellyva:81/
-user: simon.li
-password: intellyva
-
-[烧录]
-mboot下adnl
 
 #Fragment使用
 https://developer.android.com/topic/libraries/architecture/viewmodel#sharing #Fragment间共享数据
@@ -185,10 +174,6 @@ https://plugins.jetbrains.com/
 
 https://www.jianshu.com/p/9d578be5d6dc
 
-RxJava
-https://www.cnblogs.com/xuecanmeng/p/6888351.html
-https://www.imooc.com/article/37303 #Single与Completable
-https://blog.csdn.net/baidu_34012226/article/details/52438902
 
 Room
 https://developer.android.google.cn/training/data-storage/room/relationships?hl=zh-cn #entity之间的关系
