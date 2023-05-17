@@ -211,5 +211,8 @@ https://blog.csdn.net/u013125680/article/details/43637993
 https://blog.csdn.net/hufeng882412/article/details/7310142
 
 
-#矢量图指南
+## 矢量图指南
 https://juejin.cn/post/6844903482017710088
+
+## DiffUtil原理
+https://github.com/huanzhiyazi/articles/issues/11#ch1

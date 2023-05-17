@@ -30,3 +30,9 @@ git pull --rebase
 ```base
 git commit --amend
 ```
+
+## 设置全局代理
+```bash
+git config --global http.proxy http://127.0.0.1:12333
+git config --global https.proxy http://127.0.0.1:12333
+```
