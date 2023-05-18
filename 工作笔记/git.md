@@ -36,3 +36,8 @@ git commit --amend
 git config --global http.proxy http://127.0.0.1:12333
 git config --global https.proxy http://127.0.0.1:12333
 ```
+
+## 处理中文乱码
+```bash
+git config --global core.quotepath false #禁止路径转义
+```
