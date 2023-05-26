@@ -10,3 +10,14 @@ Q2 material api里面的group不需要，设备端没法给这个字段赋值
 Q3 推流没有获取推流状态的接口；设备端发送给云服务端的接口需要返回状态吗？
 Q4 设置背景音乐列表和设置设备背景音乐列表什么区别？
 Q5 设备氛围音列表用读取设备素材列表的方式可以读的到吗？
+
+```
+logcat | grep -E "(NetworkStateManager|DynamicRegister)"
+```
+
+# 优秀网站排版
+https://overreacted.io/
+https://blog.zhheo.com/
+https://chaoxuprime.com/
+https://yujiangshui.com/
+https://nightswatch.games/

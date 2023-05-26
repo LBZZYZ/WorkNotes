@@ -1,5 +1,7 @@
 ## 手册
 [link](https://www.liaoxuefeng.com/wiki/896043488029600)
+## 学习网站
+https://learngitbranching.js.org/
 ## 将dev对齐到master线
 1. git checkout \<dev-branch\> // 首先将工作区切换到dev分支
 2. git rebase origin/master // 此操作会首先把origin/master的修改copy到dev，然后把dev上特有的修改跟到后面，解完冲突后可以执行步骤3(参考https://blog.csdn.net/weixin_42310154/article/details/119004977)
@@ -40,4 +42,29 @@ git config --global https.proxy http://127.0.0.1:12333
 ## 处理中文乱码
 ```bash
 git config --global core.quotepath false #禁止路径转义
+```
+
+## There is no tracking information for the current branch.
+```bash
+git branch --set-upstream-to=origin/<branch> main
+```
+
+## 上传时屏蔽特定行的内容
+[如何让 Git 忽略掉文件中的特定行内容？](https://www.cnblogs.com/haiku/p/6414067.html)
+
+## 更新远程分支
+```
+git remote update origin --prune
+```
+
+## 查看/清空stash
+```bash
+git stash list
+git stash clear
+```
+
+## 增加.gitignore时，有一些不想追踪的文件已经被添加到缓存区
+```
+如果是文件夹：git rm -r --cached 文件夹名
+如果是文件：git rm --cached 文件名
 ```
