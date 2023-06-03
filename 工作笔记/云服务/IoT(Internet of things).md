@@ -7,8 +7,8 @@
 |qos介绍文档|[链接](https://blog.csdn.net/m0_50668851/article/details/112555171)|
 |RRPC|[[RRPC]]|
 
-https://help.aliyun.com/document_detail/96607.html
-https://help.aliyun.com/document_detail/261160.htm?spm=a2c4g.11186623.0.0.3f0a11ff9pcOQa#section-fct-pw1-b5p
+[环境要求与配置](https://help.aliyun.com/document_detail/96607.html)
+[Android Link SDK](https://help.aliyun.com/document_detail/261160.htm?spm=a2c4g.11186623.0.0.3f0a11ff9pcOQa#section-fct-pw1-b5p)
 
 ![](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5826597261/p132750.png)
 

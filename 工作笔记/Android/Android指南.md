@@ -91,8 +91,6 @@ https://xiaozhuanlan.com/topic/0168753249 #好文
 #Activity
 https://zhuanlan.zhihu.com/p/66921084
 
-#观察者和发布订阅
-https://zhuanlan.zhihu.com/p/51357583
 
 #滚动评论
 https://www.jianshu.com/p/e55b73f3e913
