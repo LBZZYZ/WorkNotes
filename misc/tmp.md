@@ -21,3 +21,4 @@ https://blog.zhheo.com/
 https://chaoxuprime.com/
 https://yujiangshui.com/
 https://nightswatch.games/
+http://www.yinwang.org/#
