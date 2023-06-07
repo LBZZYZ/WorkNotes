@@ -184,3 +184,16 @@ Drawable bitmap2Drawable(Bitmap bitmap) {  
             Log.d(TAG, "横屏");
         }
 ```
+
+## 字符串Base64编码为String
+```Java
+    public static String encodeBitmapToString(Bitmap bitmap) {
+        if (bitmap == null) {
+            return "";
+        }
+        ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+        bitmap.compress(bitmap.hasAlpha() ? Bitmap.CompressFormat.PNG : Bitmap.CompressFormat.JPEG, 100, outputStream);
+        // Base64.NO_WRAP is used to eliminate '\n' in encoded string
+        return Base64.encodeToString(outputStream.toByteArray(), Base64.NO_WRAP);
+    }
+```

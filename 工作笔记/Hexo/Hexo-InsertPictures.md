@@ -23,11 +23,3 @@ $ cnpm install https://github.com/CodeFalling/hexo-asset-image --save
 ```bash
 post_asset_folder: true
 ```
-
----
-
-## 在.md中按markdown语法插入图片
-
-```bash
-"![picture](picture_address.pmg)"
-```

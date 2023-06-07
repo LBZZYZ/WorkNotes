@@ -1,3 +1,43 @@
+---
+title: Git服务器
+date: 2021-05-23 00:20:13
+tags: git
+---
+
+## 创建空仓库
+```bash
+git init --bare bingzhi.git
+```
+
+## 创建分支
+```bash
+git branch <分支名称>
+```
+
+## 切换分支(不存在则自动创建)
+```bash
+git branch -b <分支名称>
+```
+
+## 拉取指定分支
+```bash
+git clone -b <分支名称> 你的远端地址
+```
+
+## 推送某分支到远程分支
+```bash
+git push origin <local branch>:<remote branch> #remote branch不存在则自动创建
+```
+
+## 管理公钥
+公钥收集起来放到服务器的`/home/git/.ssh/authorized_keys`
+
+## git hooks for hexo
+```bash
+#hooks/post-update
+git --work-tree="/var/www/html" --git-dir="/root/blog.git" checkout -f
+```
+
 ## 手册
 [link](https://www.liaoxuefeng.com/wiki/896043488029600)
 ## 学习网站
@@ -67,4 +107,19 @@ git stash clear
 ```
 如果是文件夹：git rm -r --cached 文件夹名
 如果是文件：git rm --cached 文件名
+```
+
+## patch
+```bash
+git format-patch HEAD^ #生成最近一次commit的patch
+```
+
+```bash
+git am xxx.patch #直接将patch的所有信息打上去，无需重新git add和git commit，author也是patch的author而不是打patch的人。
+git apply xxx.patch #与git am的区别是：git apply并不会将commit message等打上去，打完patch后需要重新git add和git commit。
+```
+
+## git log单行显示
+```bash
+git log --oneline
 ```
