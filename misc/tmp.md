@@ -24,3 +24,69 @@ https://nightswatch.games/
 http://www.yinwang.org/#
 https://www.softmk.com/
 https://blog.codinghorror.com/
+
+
+```gradle
+plugins {
+    id 'com.android.library'
+    id 'maven-publish'
+}
+
+android {
+    compileSdk 30
+
+    defaultConfig {
+        minSdk 30
+        targetSdk 30
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
+        ndk {
+            abiFilters "armeabi-v7a", "arm64-v8a"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile(
+                    'proguard-android-optimize.txt'),
+                    'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+
+    android.libraryVariants.all { variant ->
+        def outputFile = "com.intellyva.tools.aar"
+        variant.outputs.all {
+            outputFileName = outputFile
+        }
+    }
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            maven(MavenPublication) {
+                groupId = 'com.simontest.lib'
+                artifactId = 'tools'
+                version = '1.0.7'
+                artifact("$buildDir/outputs/aar/com.intellyva.tools.aar")
+            }
+        }
+        repositories {
+            maven {
+                url = uri('C:\\bz_temp')
+            }
+        }
+    }
+}
+
+dependencies {
+    // ali-cloud oss
+    api 'com.aliyun.dpa:oss-android-sdk:2.9.13'
+}
+```
