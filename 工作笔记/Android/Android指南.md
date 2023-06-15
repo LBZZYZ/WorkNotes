@@ -194,6 +194,7 @@ https://www.cnblogs.com/lanpo/articles/11428037.html
 
 #ContentProvider
 https://bbs.csdn.net/topics/340041854  解决query方法只能返回Cursor的问题
+[【Binder机制】如何理解“Binder通信是同步而不是异步”？](https://zhuanlan.zhihu.com/p/589351451)
 
 #分屏命令
 setprop persist.splitscreenmonitor.enable true

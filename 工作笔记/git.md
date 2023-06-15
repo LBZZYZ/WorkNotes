@@ -123,3 +123,9 @@ git apply xxx.patch #与git am的区别是：git apply并不会将commit message
 ```bash
 git log --oneline
 ```
+
+## git add
+```bash
+git add -u . #添加到暂存区，不包括untracked files
+git add . #添加到暂存区，包括untracked files
+```
