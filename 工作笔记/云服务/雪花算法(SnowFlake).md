@@ -1,2 +1,0 @@
-[wiki](https://en.wikipedia.org/wiki/Snowflake_ID)
-[参考实现](https://javalib.blog.csdn.net/article/details/123956128?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-123956128-blog-104385182.235%5Ev35%5Epc_relevant_increate_t0_download_v2&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-123956128-blog-104385182.235%5Ev35%5Epc_relevant_increate_t0_download_v2&utm_relevant_index=2&ydreferer=aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM3MzU2NTU2L2FydGljbGUvZGV0YWlscy8xMDQzODUxODI%3D)
