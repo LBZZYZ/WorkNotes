@@ -5,6 +5,7 @@
 |开发人员提问文档|[链接](https://docs.qq.com/scenario/account-guide.html?globalPadId=300000000%24TgHolFEsDQlU&redirect_url=https%3A%2F%2Fdocs.qq.com%2Fdoc%2FDVGdIb2xGRXNEUWxV%3Fu%3Dac3ca48d84e64b61b05af80b9c077218&u=5e4efa64f2e74cf4a56a3f7adfff265b)|
 |接口文档|[链接](https://docs.qq.com/doc/DVHprR3RjVVl5dnpG?u=0b2b91809dd5486fae3cc1d365c19864)|
 |qos介绍文档|[链接](https://blog.csdn.net/m0_50668851/article/details/112555171)|
+|物联网平台配置文档|[链接](https://docs.qq.com/doc/DVGFFb3FWdk9Ed29E)|
 |RRPC|[[RRPC]]|
 
 [环境要求与配置](https://help.aliyun.com/document_detail/96607.html)
