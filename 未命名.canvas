@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"7bdd76a1af1bc625","x":-260,"y":-460,"width":320,"height":120,"type":"text","text":"VsCode插件\n1. Live Server: web服务器\n2. prettier: 代码格式化"},
+		{"id":"9b120922a2bfe1a3","x":-225,"y":-300,"width":250,"height":60,"type":"text","text":"HTML+CSS -> JavaScript->React->Git"}
+	],
+	"edges":[]
+}
