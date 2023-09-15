@@ -4,7 +4,7 @@ Hypertext代表页面可以包含链接，让用户可以跳转到页面其他�
 first created by Tim Berners-Lee, Robert Cailliau, and others
 
 ## Makeup Language
-**tags** **attributes** 这俩货是基本元素
+**tags**和**attributes**是**HTML**的基本元素
 Makeup Language：一种计算机之间用于控制文本如何被处理和呈现的方式
 
 ### tags

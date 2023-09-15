@@ -31,12 +31,14 @@ https://blog.csdn.net/u012077264/article/details/47832847 #GridView in Fragment
 #Jetpack
 https://developer.android.google.cn/jetpack/
 
-#MVVM & Databinding
+# MVVM & Databinding
 https://www.jianshu.com/p/449136bddff6
 https://www.jianshu.com/p/53925ccb900e
-http://events.jianshu.io/p/fdd73fb6c48b
 https://www.cnblogs.com/jiani/p/12609272.html
 https://zhuanlan.zhihu.com/p/346711847
+[4 Steps to MVVM in Android (Java)](https://medium.com/@kashifo/4-steps-to-mvvm-in-android-java-b05fb4148523)
+MVP: UI驱动开发
+MVVM: 数据驱动开发
 
 #Drawable
 https://developer.android.com/guide/topics/resources/drawable-resource
@@ -215,3 +217,8 @@ https://juejin.cn/post/6844903482017710088
 
 ## DiffUtil原理
 https://github.com/huanzhiyazi/articles/issues/11#ch1
+
+## MVI
+[Android 上的 Kotlin 数据流](https://developer.android.com/kotlin/flow?hl=zh-cn)
+https://zhuanlan.zhihu.com/p/566852548
+[安卓MVI架构真的来了？动手试着封装吧（一）](https://juejin.cn/post/7104565566568202276)
