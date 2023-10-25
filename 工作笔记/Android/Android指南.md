@@ -1,4 +1,3 @@
-
 #Fragment使用
 https://developer.android.com/topic/libraries/architecture/viewmodel#sharing #Fragment间共享数据
 https://www.jianshu.com/p/a4c51309bc19
@@ -222,3 +221,28 @@ https://github.com/huanzhiyazi/articles/issues/11#ch1
 [Android 上的 Kotlin 数据流](https://developer.android.com/kotlin/flow?hl=zh-cn)
 https://zhuanlan.zhihu.com/p/566852548
 [安卓MVI架构真的来了？动手试着封装吧（一）](https://juejin.cn/post/7104565566568202276)
+
+
+
+|主题|资源|
+|---|---|
+|圆角图片|[Android 圆角图片RoundImageView（Canvas.drawDoubleRoundRect）](https://juejin.cn/post/6913083202387050509)|
+|aar 包|[使用Gradle发布工件到Maven仓库](https://blog.csdn.net/yingaizhu/article/details/85163062)|
+|Android Studio 设置代理后无法取消|[Android Studio 设置HTTP代理无法取消的问题](https://blog.51cto.com/kenkao/5992081)|
+|Intent|[Intents and intent filters](https://developer.android.com/guide/components/intents-filters)<br>[Intent](https://developer.android.com/reference/android/content/Intent)|
+|MVP 架构|[Adapter最佳实践](https://juejin.cn/post/6844903462333841415)<br>[MVP中adapter的处理思路](https://blog.51cto.com/u_11022239/3155863)|
+|XML|[【Java】解析XML配置文件总结——DOM解析XML（二）](https://blog.csdn.net/sdut406/article/details/89298427)|
+|ViewPager|[Android 实现个性的ViewPager切换动画 实战PageTransformer（兼容Android3.0以下）](https://blog.csdn.net/lmj623565791/article/details/40411921)|
+|SurfaceView|[SurfaceView 如何设置圆角？](https://juejin.cn/post/6844904131631529992)|
+|Fragment|[Fragment管理器(Google官方)](https://developer.android.com/guide/fragments/fragmentmanager?hl=zh-cn)<br>[【背上Jetpack之Fragment】你真的会用Fragment吗？Fragment常见问题以及androidx下Fragment的使用新姿势](https://juejin.cn/post/6844904079697657863)|
+|ContentProvider|[Android中CursorLoader的使用、原理及注意事项](https://blog.csdn.net/Mr_Gintoki/article/details/50601094)|
+|APP 启动页|[Android开发----实现应用启动页](https://blog.csdn.net/Qingshan_z/article/details/127306031)|
+|性能优化|[Android atrace/systrace的使用](https://juejin.cn/post/7053395801510248455)|
+|生命周期|[lifecycle](https://developer.android.com/guide/fragments/lifecycle)|
+|Room|[Room踩坑：理解Room的正确升库](https://juejin.cn/post/6844903889611800584)<br>[Understanding migrations with Room](https://medium.com/androiddevelopers/understanding-migrations-with-room-f01e04b07929)|
+|Handler|[Handler消息机制之深入理解Message.obtain()](https://blog.csdn.net/chenbaige/article/details/79473475)<br>[Android异步通信：你了解Handler内存泄露吗？](https://blog.csdn.net/carson_ho/article/details/79285760)<br>[Android多线程：HandlerThread详细使用手册(含实例讲解)](https://blog.csdn.net/carson_ho/article/details/79285760)<br>[MVP禁止在presenter中使用Handler](https://stackoverflow.com/questions/32031724/android-mvp-strategy)|
+|`AOP` 编程|[Android aop切点表达式（execution）](https://www.jianshu.com/p/044c149caf7f)<br>[Android使用AspectJ](https://juejin.cn/post/7024344347504017444)<br>[Android Gradle 插件开发入门指南（一）](https://juejin.cn/post/6887581345384497165)<br>[Developing Custom Gradle Plugins](https://docs.gradle.org/current/userguide/custom_plugins.html)|
+|TextureView|[TextureView](https://developer.android.com/reference/android/view/TextureView)<br>[TextureView 的血与泪（完整修订版）](https://zhuanlan.zhihu.com/p/147322501)<br>[TextureView的基本写法，每秒1帧随机字符串显示在屏幕中间](https://blog.csdn.net/yu540135101/article/details/103066474)|
+|RecyclerView|[why payloads in RecyclerView' onBindViewHolder is a list?](https://stackoverflow.com/questions/46753986/why-payloads-in-recyclerview-onbindviewholder-is-a-list)<br>[Smart way to update RecyclerView using DiffUtil](https://medium.com/android-news/smart-way-to-update-recyclerview-using-diffutil-345941a160e0)<br>[Myers 差分算法 (Myers Difference Algorithm) —— DiffUtils 之核心算法（一）](https://blog.csdn.net/u014400934/article/details/99415968)<br>[Speed up Your Android RecyclerView Using DiffUtil](https://www.kodeco.com/21954410-speed-up-your-android-recyclerview-using-diffutil)|
+
+

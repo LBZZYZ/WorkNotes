@@ -1,2 +1,0 @@
-1. [【背上Jetpack之Fragment】你真的会用Fragment吗？Fragment常见问题以及androidx下Fragment的使用新姿势](https://juejin.cn/post/6844904079697657863)
-2. [Fragment管理器(Google官方)](https://developer.android.com/guide/fragments/fragmentmanager?hl=zh-cn)

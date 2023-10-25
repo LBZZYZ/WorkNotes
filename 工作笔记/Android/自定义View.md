@@ -1,7 +1,7 @@
 onMeasure
 <https://www.jianshu.com/p/1a1491f059fc>
 <https://blog.csdn.net/lovexieyuan520/article/details/50614670>
-View的android:layout_width和android:layout_height的值就是onMeasure()两个参数。什么意思，比如我为android:layout_width和android:layout_height设置的值为300dp，但是我在onMeasure()中，测量时不遵守这个300dp的空间要求，将onMeasure()的实现改为：
+View 的 android:layout_width 和 android:layout_height 的值就是 onMeasure() 两个参数。什么意思，比如我为 android:layout_width 和 android:layout_height 设置的值为 300dp，但是我在 onMeasure() 中，测量时不遵守这个 300dp 的空间要求，将 onMeasure() 的实现改为：
 
 @Override
 protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {

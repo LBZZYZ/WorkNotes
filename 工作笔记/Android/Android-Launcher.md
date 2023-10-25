@@ -1,13 +1,3 @@
----
-title: Android-Launcher介绍
-date: 2021-09-04 08:55:28
-tags: 
-	- Android
-	- Launcher
-
-categories: Android
----
-
 ## 系列文章主题
 
 本系列文章旨在实现一个可以罗列所有APP以及带有托盘图标的Android Luncher。
