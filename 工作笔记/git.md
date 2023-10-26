@@ -1,7 +1,8 @@
 ---
-title: Git服务器
+title: Git
 date: 2021-05-23 00:20:13
-tags: git
+tags:
+  - git
 ---
 
 ## 创建空仓库
@@ -129,3 +130,12 @@ git log --oneline
 git add -u . #添加到暂存区，不包括untracked files
 git add . #添加到暂存区，包括untracked files
 ```
+
+## git commit 的七条规则
+1. Separate subject from body with a blank line（将主题与正文用空行分隔开来）
+2. Limit the subject line to 50 characters（将主题行限制在50个字符以内）
+3. Capitalize the subject line（将主题行的首字母大写）
+4. Do not end the subject line with a period（不要在主题行末尾加句号）
+5. Use the imperative mood in the subject line（在主题行中使用祈使语气）
+6. Wrap the body at 72 characters（在每行正文中达到 72 个字符进行换行）
+7. Use the body to explain _what_ and _why_ vs. _how_（在正文中解释“什么”和“为什么”，而不是“如何”）
