@@ -1,7 +1,7 @@
 ---
 title: SELinux
 date: 2021-01-09 19:46:25
-tags:
+tags: linux
 ---
 
 ## 一、背景介绍

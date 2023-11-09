@@ -1,7 +1,7 @@
 ---
 title: fstab
 date: 2020-12-16 00:37:53
-categories: Linux
+tags: linux
 ---
 
 ## 一、前言
