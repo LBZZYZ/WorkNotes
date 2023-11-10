@@ -164,7 +164,7 @@ https://www.cnblogs.com/everhad/p/6161083.html
 # ViewPager2指示器
 https://blog.csdn.net/u013904672/article/details/51691142?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-1.no_search_link&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-1.no_search_link
 
-#Android Studio插件下载
+# Android Studio插件下载
 https://plugins.jetbrains.com/
 
 
@@ -235,5 +235,3 @@ https://zhuanlan.zhihu.com/p/566852548
 |`AOP` 编程|[Android aop切点表达式（execution）](https://www.jianshu.com/p/044c149caf7f)<br>[Android使用AspectJ](https://juejin.cn/post/7024344347504017444)<br>[Android Gradle 插件开发入门指南（一）](https://juejin.cn/post/6887581345384497165)<br>[Developing Custom Gradle Plugins](https://docs.gradle.org/current/userguide/custom_plugins.html)|
 |TextureView|[TextureView](https://developer.android.com/reference/android/view/TextureView)<br>[TextureView 的血与泪（完整修订版）](https://zhuanlan.zhihu.com/p/147322501)<br>[TextureView的基本写法，每秒1帧随机字符串显示在屏幕中间](https://blog.csdn.net/yu540135101/article/details/103066474)|
 |RecyclerView|[why payloads in RecyclerView' onBindViewHolder is a list?](https://stackoverflow.com/questions/46753986/why-payloads-in-recyclerview-onbindviewholder-is-a-list)<br>[Smart way to update RecyclerView using DiffUtil](https://medium.com/android-news/smart-way-to-update-recyclerview-using-diffutil-345941a160e0)<br>[Myers 差分算法 (Myers Difference Algorithm) —— DiffUtils 之核心算法（一）](https://blog.csdn.net/u014400934/article/details/99415968)<br>[Speed up Your Android RecyclerView Using DiffUtil](https://www.kodeco.com/21954410-speed-up-your-android-recyclerview-using-diffutil)|
-
-
