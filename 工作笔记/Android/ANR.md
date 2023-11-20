@@ -43,7 +43,7 @@ https://developer.android.com/jetpack/compose/tutorial
 
 
 ## 插桩
-![插桩函数](https://cdn.staticaly.com/gh/LBZZYZ/PicX@master/Blog/Pasted-image-20230208143358.5qu5r84y6n80.webp)
+![插桩函数](https://cdn.statically.io/gh/LBZZYZ/PicX@master/Blog/Pasted-image-20230208143358.5qu5r84y6n80.webp)
 使用时加上-a + 包名显示插桩信息
 
 ```bash

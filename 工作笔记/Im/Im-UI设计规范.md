@@ -98,7 +98,7 @@ https://blog.csdn.net/rjc_lihui/article/details/88397009
 https://www.pianshen.com/article/1267989284/
 
 ## 查询结果列表 单个item
-![](https://cdn.staticaly.com/gh/LBZZYZ/PicX@master/Blog/查找好友界面搜索结果item.6sg4zmgapng0.webp)
+![](https://cdn.statically.io/gh/LBZZYZ/PicX@master/Blog/查找好友界面搜索结果item.6sg4zmgapng0.webp)
 ## vs2019配置Qt
 https://www.jb51.net/article/183061.htm
 

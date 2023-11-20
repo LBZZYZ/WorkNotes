@@ -103,7 +103,7 @@ mysql>
 ```bash
 systemctl status mysql
 ```
-![执行结果](https://cdn.staticaly.com/gh/LBZZYZ/PicX@master/Blog/mysqlState.1v1675w98uf4.webp)
+![执行结果](https://cdn.statically.io/gh/LBZZYZ/PicX@master/Blog/mysqlState.1v1675w98uf4.webp)
 
 ## 在Mysql中显示所有用户
 ```bash

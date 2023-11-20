@@ -21,7 +21,7 @@ description: 如果你想知道如何对hexo & NexT主题进行个性化配置�
 scheme: Gemini
 ```
 这是设置了Mist风格的效果
-![theme-mist](https://cdn.staticaly.com/gh/LBZZYZ/PicX@master/Blog/theme-mist.2z3v7co1zfq0.webp)
+![theme-mist](https://cdn.statically.io/gh/LBZZYZ/PicX@master/Blog/theme-mist.2z3v7co1zfq0.webp)
 
 ## 深色模式
 目前设置之后无效，还要再确认下原因。
