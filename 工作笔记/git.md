@@ -131,6 +131,67 @@ git add -u . #添加到暂存区，不包括untracked files
 git add . #添加到暂存区，包括untracked files
 ```
 
+## tag 操作
+```bash
+# 列出所有 tag
+git tag
+
+# 列出指定版本 tag，* 位通配符
+git tag -l "v1.8.5*"
+
+# 创建 tag
+git tag -a v1.4 -m "my version 1.4"
+
+# 查看 tag
+git show v1.4
+
+# 创建轻量 tag
+git tag v1.4-lw
+
+# 推送 tag
+git push origin v1.5
+
+# 删除 tag
+git tag -d v1.4-lw
+
+# 切换至 tag 指定版本
+git checkout 2.0.0
+```
+
+## 安装/更新 Git
+以 CentOS 7 为例，CentOS 7 内置了 `Git 1.8.3`，首先将其卸载。
+```bash
+yum remove git
+```
+
+由于官方源没有最新版本的 Git，所以需要增加第三方源，这里采用 [ius](https://ius.io/)
+```bash
+yum install \
+https://repo.ius.io/ius-release-el7.rpm \
+https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+```
+
+在仓库列表中看到名为 `git236` 的库，因此使用 yum 安装。
+```bash
+yum install git236
+```
+
+安装完成后确认版本
+```
+git version
+
+console:/ # git version 2.36.6
+```
+
+Ubuntu 18.04 安装 git
+```
+apt install git
+```
+
+## [Git 多人协作开发](https://sliu.vip/git/team-dev/)
+
+## [浅谈 Pull Request 与 Change Request 研发协作模式](https://blog.gitee.com/2020/12/15/pull-request-change-request/)
+
 ## git commit 的七条规则
 1. Separate subject from body with a blank line（将主题与正文用空行分隔开来）
 2. Limit the subject line to 50 characters（将主题行限制在50个字符以内）
