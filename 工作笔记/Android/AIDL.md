@@ -1,5 +1,5 @@
 # 作用
-进程间通信
+**进程间通信**
 
 # RemoteCallbackList
 用于**服务端**回调**客户端**的方法。
@@ -104,5 +104,5 @@ private void unRegisterRemoteCallback() {
 ```
 
 # 参考连接
-\[1\] https://developer.android.com/guide/components/aidl?hl=zh-cn
+\[1\] [Android 接口定义语言 (AIDL)](https://developer.android.com/guide/components/aidl?hl=zh-cn)
 \[2\] [安卓 RemoteCallbackList 的使用 （应用篇）](https://www.cnblogs.com/SupperMary/p/14746477.html)
