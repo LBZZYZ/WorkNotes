@@ -131,3 +131,6 @@ cp gitea /usr/local/bin/gitea
 systemctl enable gitea
 systemctl start gitea
 ```
+
+## 问题
+[/etc/systemd/system/gitea.service 按照官方配置，无法启动。将其中 sype=notify 改成 type=simple 就可以启动](https://www.nuomiphp.com/t/64749ca4688666534432be75.html)
