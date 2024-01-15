@@ -123,3 +123,12 @@
 	}
 }
 ```
+
+# originX、originY 和 left、top
+以左上角为基准点，left 和 top 指明了原点的位置；
+originX 和 originY 指明了矩形的水平和垂直方向哪个点与原点重合；
+originX 取值有 left, right 和 center；
+originY 取值有 top, bottom 和 center；
+如 left = 100, top = 100, originX = left, originY = top 时，代表原点为 (100, 100)，矩形左上角的点与原点重合。
+http://fabricjs.com/test/misc/origin.html
+https://www.cnblogs.com/xc-dh/p/17218233.html
