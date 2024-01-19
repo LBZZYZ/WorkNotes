@@ -89,6 +89,14 @@ git config --global http.proxy http://127.0.0.1:12333
 git config --global https.proxy http://127.0.0.1:12333
 ```
 
+## 设置 SSH 的 https 代理
+```bash
+Host github.com
+Hostname ssh.github.com
+Port 443
+User git
+```
+[git_ssh_proxy.md](https://gist.github.com/chenshengzhi/07e5177b1d97587d5ca0acc0487ad677)
 ## 处理中文乱码
 ```bash
 git config --global core.quotepath false #禁止路径转义
