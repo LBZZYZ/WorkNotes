@@ -20,6 +20,12 @@ git branch <branch-name>
 git branch -b <branch-name>
 ```
 
+## 修改分支名称
+```bash
+git branch -m <旧分支名> <新分支名>
+git branch -m <新分支名> # 修改当前分支名称
+```
+
 ## 拉取指定分支
 ```bash
 git clone -b <branch-name> 你的远端地址
@@ -121,6 +127,12 @@ git stash list
 git stash clear
 ```
 
+## 更新 origin 仓库列表
+```bash
+git remote update origin --prune
+or
+git remote update origin -p
+```
 ## 增加.gitignore时，有一些不想追踪的文件已经被添加到缓存区
 ```
 如果是文件夹：git rm -r --cached 文件夹名
@@ -217,3 +229,14 @@ apt install git
 5. Use the imperative mood in the subject line（在主题行中使用祈使语气）
 6. Wrap the body at 72 characters（在每行正文中达到 72 个字符进行换行）
 7. Use the body to explain _what_ and _why_ vs. _how_（在正文中解释“什么”和“为什么”，而不是“如何”）
+
+## git branch 命名规范
+- master（主分支，永远是可用的、稳定的、可直接发布的版本，不能直接在该分支上开发）
+- develop（开发主分支，代码永远是最新，所有新功能以这个分支来创建自己的开发分支，该分支只做只合并操作，不能直接在该分支上开发）
+- feature-xxx（功能开发分支，在develop上创建分支，以自己开发功能模块命名，功能测试正常后合并到develop分支）。如 feature/add-new-feature-20240119
+- release（预发布分支，在合并好feature分支的develop分支上创建，主要是用来提测的分支，修改好bug并确定稳定之后合并到develop和master分支，然后发布master分支）
+- release-fix（功能bug修复分支，在release上创建分支修复，修复好提测的bug之后合并回release分支。）
+- hotfix-xxx（紧急bug修改分支，项目上线之后可以会遇到一些环境问题需要紧急修复，在对应版本的release分支上创建，流程跟release分支相似，修复完成后合并release分支，根据情况判断需不需要再合并到develop和master分支）
+## 文章
+[rebase](https://www.cnblogs.com/chenny7/p/7644318.html)
+[Git合并到底使用Merge，还是Rebase？](https://www.dianyuan.com/eestar/article-5068.html)

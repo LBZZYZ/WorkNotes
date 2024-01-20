@@ -132,3 +132,10 @@ originY 取值有 top, bottom 和 center；
 如 left = 100, top = 100, originX = left, originY = top 时，代表原点为 (100, 100)，矩形左上角的点与原点重合。
 http://fabricjs.com/test/misc/origin.html
 https://www.cnblogs.com/xc-dh/p/17218233.html
+object:scaling 事件发生时，transfrom.target.originX 和 transform.target.originY 是用户拖拽点对侧的点。如用户拖拽左上角，则 originX = right，originY = bottom。
+
+# 属性解释
+```Json
+lockScalingFlip: true // 禁止水平翻转
+centeredRotation: true // 启用中心旋转
+```
