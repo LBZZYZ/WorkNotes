@@ -139,3 +139,5 @@ object:scaling 事件发生时，transfrom.target.originX 和 transform.target.o
 lockScalingFlip: true // 禁止水平翻转
 centeredRotation: true // 启用中心旋转
 ```
+
+# [Fabric.js 禁止元素超出画布](https://cloud.tencent.com/developer/article/2119056)
