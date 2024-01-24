@@ -149,6 +149,18 @@ git am xxx.patch #直接将patch的所有信息打上去，无需重新git add�
 git apply xxx.patch #与git am的区别是：git apply并不会将commit message等打上去，打完patch后需要重新git add和git commit。
 ```
 
+### [解决 git am 时 patch does not apply](https://www.cnblogs.com/Galesaur-wcy/p/15751576.html)
+```bash
+# 1. 强制合并不冲突的部分，冲突部分会生成 .rej 文件
+git apply --reject patch-name 
+# 2. 手动合并 .rej 文件中的冲突，合并完成后删除 .rej文件
+# 3. 添加合并完的文件到暂存区
+git add .
+# 4. 继续 apply patch
+git am --continue
+
+```
+
 ## git log单行显示
 ```bash
 git log --oneline
