@@ -96,6 +96,7 @@ git config --global https.proxy http://127.0.0.1:12333
 ```
 
 ## 设置 SSH 的 https 代理
+修改 `~/.ssh/config` 文件
 ```bash
 Host github.com
 Hostname ssh.github.com
