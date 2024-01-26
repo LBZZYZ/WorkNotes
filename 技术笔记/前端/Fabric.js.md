@@ -141,3 +141,5 @@ centeredRotation: true // 启用中心旋转
 ```
 
 # [Fabric.js 禁止元素超出画布](https://cloud.tencent.com/developer/article/2119056)
+
+# [我从 fabric.js 中学到了什么](https://segmentfault.com/a/1190000019054853)
