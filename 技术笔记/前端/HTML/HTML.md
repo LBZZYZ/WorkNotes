@@ -100,3 +100,5 @@ defination list
 |**<colgroup>**|Column Group|Within the table|
 |**<th>**|Table Header|Data cell for the table header|
 
+## HTML代码检查
+https://validator.w3.org/
