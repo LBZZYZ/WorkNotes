@@ -49,7 +49,11 @@ git push origin --delete <branch-name>
 ## 管理公钥
 公钥收集起来放到服务器的`/home/git/.ssh/authorized_keys`
 
-## git hooks for hexo
+## Hooks
+监听某个操作，然后触发自定义逻辑。脚本位于 `.git/hooks/`。
+注：`.git` 文件夹不会上传到远端仓库，因此只会在本地生效。
+附：[共用 hooks](https://blog.csdn.net/sinat_34014668/article/details/131038787) 。
+### git hooks for hexo
 ```bash
 #hooks/post-update
 git --work-tree="/var/www/html" --git-dir="/root/blog.git" checkout -f
