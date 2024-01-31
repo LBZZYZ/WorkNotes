@@ -1,3 +1,4 @@
+#TODO 整理内容和格式
 ResolveInfo这个类是通过解析一个与IntentFilter相对应的intent得到的信息。它部分地对应于从AndroidManifest.xml的\< intent\>标签收集到的信息。PackageManager这个类是用来返回各种的关联了当前已装入设备了的应用的包的信息。你可以通过getPacageManager来得到这个类。
 
 　　PackageManager manager = getPackageManager();
