@@ -6,3 +6,6 @@
 
 ## 提出者
 Kent Beck, JUnit作者。
+
+---
+[用 TDD 开发基于数据库的长时任务系统](https://brightliao.com/2022/07/05/tdd-to-develop-a-long-running-task-system/)
