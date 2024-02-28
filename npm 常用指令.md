@@ -30,3 +30,8 @@ npm i -g <pkg-name>
 npm uninstall -g <pkg-name>
 npm r -g <pkg-name> # r 代表 remove
 ```
+
+# 查看包最新版本
+```bash
+npm view <pkg-name> version
+```
