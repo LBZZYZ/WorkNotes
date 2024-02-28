@@ -132,6 +132,11 @@ git stash list
 git stash clear
 ```
 
+## stash 文件时指定信息
+```bash
+git stash push -m "message"
+```
+
 ## 更新 origin 仓库列表
 ```bash
 git remote update origin --prune
