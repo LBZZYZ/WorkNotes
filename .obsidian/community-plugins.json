@@ -3,5 +3,6 @@
   "obsidian-plantuml",
   "calendar",
   "obsidian-pandoc",
-  "nldates-obsidian"
+  "nldates-obsidian",
+  "dataview"
 ]
