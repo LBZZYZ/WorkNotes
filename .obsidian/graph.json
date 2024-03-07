@@ -1,10 +1,10 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "tag:#线程  ",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": true,
-  "showOrphans": false,
+  "showOrphans": true,
   "collapse-color-groups": true,
   "colorGroups": [],
   "collapse-display": true,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.5856316677363973,
-  "close": false
+  "scale": 0.585631667736397,
+  "close": true
 }
