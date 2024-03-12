@@ -19,7 +19,7 @@ sudo apt install redis-server
 
 ### 检查安装是否成功
 ```bash
-$ mysql-cli
+$ redis-cli
 127.0.0.1:6379>
 ```
 
@@ -27,10 +27,4 @@ $ mysql-cli
 ```bash
 127.0.0.1:6379> ping
 PONG
-```
-
-# 设置每页显示的文章数量
-修改站点配置文件中的属性
-```bash
-per_page: 10
 ```
