@@ -1,9 +1,4 @@
-## 1. 安装docker
-```bash
-yum install -y docker
-systemctl start docker.service
-docker version
-```
+## 1. [[安装 docker]]
 
 ## 2. 搜索镜像
 ```bash
